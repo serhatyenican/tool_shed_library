@@ -2,7 +2,8 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { DeleteUserForm } from "../../features/components/forms/deleteUserForm/deleteForm";
 import { LoginForm } from "../../features/components/forms/loginForm/loginForm";
-import Logout from "../../features/components/forms/logOut/logOut";
+import Logout from "../../features/components/forms/logOutForm/logOut";
+
 import { RegisterForm } from "../../features/components/forms/registerForm/registerForm";
 import HomePage from "../../features/components/homePage/homePage";
 import DetailPage from "../../features/components/pages/detailPage/detailPage";
