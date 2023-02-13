@@ -2,7 +2,8 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { Provider } from "react-redux";
 import { MemoryRouter as Router } from "react-router-dom";
-import { appStore } from "../../../../infrastructure/services/store/store";
+import { appStore } from "../../../../services/store/store";
+
 import { DeleteUserForm } from "./deleteForm";
 
 describe("Given the delete form component", () => {

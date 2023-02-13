@@ -2,7 +2,8 @@ import { render, screen } from "@testing-library/react";
 import { Footer } from "./footer";
 import { Provider } from "react-redux";
 import { MemoryRouter as Router } from "react-router-dom";
-import { appStore } from "../../../infrastructure/services/store/store";
+import { appStore } from "../../../services/store/store";
+
 
 describe("Given Footer component", () => {
     beforeEach(() => {

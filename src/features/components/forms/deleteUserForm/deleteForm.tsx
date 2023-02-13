@@ -1,8 +1,9 @@
 import { SyntheticEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useUsers } from "../../../../infrastructure/services/user/hooks/useUser";
+
 import styles from "./deleteForm.module.css";
 import Swal from "sweetalert2";
+import { useUsers } from "../../../../services/user/hooks/useUser";
 
 export function DeleteUserForm() {
     const { users } = useUsers();

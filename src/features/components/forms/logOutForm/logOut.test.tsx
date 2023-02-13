@@ -3,7 +3,8 @@ import userEvent from "@testing-library/user-event";
 
 import { Provider } from "react-redux";
 import { MemoryRouter as Router } from "react-router-dom";
-import { appStore } from "../../../../infrastructure/services/store/store";
+import { appStore } from "../../../../services/store/store";
+
 
 import Logout from "./logOut";
 

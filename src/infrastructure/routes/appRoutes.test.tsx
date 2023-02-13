@@ -3,7 +3,8 @@ import { render, screen } from "@testing-library/react";
 import { MemoryRouter as Router } from "react-router-dom";
 import { AppRoutes } from "./appRoutes";
 import { Provider } from "react-redux";
-import { appStore } from "../services/store/store";
+import { appStore } from "../../services/store/store";
+
 
 describe("Given appRoutes component", () => {
     describe("When we render the component and the route is wood", () => {
