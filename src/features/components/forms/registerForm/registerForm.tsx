@@ -13,7 +13,7 @@ export function RegisterForm() {
 
     async function submitForm(e: React.SyntheticEvent) {
         e.preventDefault();
-        await fetch("http://localhost:7700/users/register", {
+        await fetch("https://tool-shed-library.onrender.com/users/register", {
             method: "POST",
             body: JSON.stringify(registerFormState),
             headers: {
