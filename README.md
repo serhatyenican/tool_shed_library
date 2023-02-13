@@ -1,6 +1,6 @@
 ## Biblioteca de Herramientas para proyectos DIY Rafael Garcia
 
-## deploy can be found at https://the-tool-shed-library.netlify.app/home
+# deploy can be found at https://the-tool-shed-library.netlify.app
 
 Nombre The Tool Shed Library
 modelo de datos de usuario
