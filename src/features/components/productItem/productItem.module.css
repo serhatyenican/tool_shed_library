@@ -1,0 +1,11 @@
+.title {
+    font-weight: bold;
+    font-size: medium;
+}
+.image {
+    height: 30vh;
+}
+
+.item__container {
+    max-width: 450px;
+}
