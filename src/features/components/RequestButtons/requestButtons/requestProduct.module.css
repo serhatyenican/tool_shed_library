@@ -1,0 +1,25 @@
+.available {
+    background: green;
+    color: white;
+}
+
+.not__available {
+    background: red;
+    color: white;
+}
+button {
+    width: 12em;
+    height: 3em;
+    cursor: pointer;
+    font-size: medium;
+    margin: 1em;
+    border: 1px solid #1188f7;
+    outline: none;
+    transition: 1s ease-in-out;
+    border-radius: 6px;
+}
+
+button:hover {
+    transition: 1s ease-in-out;
+    background: #4f95da;
+}

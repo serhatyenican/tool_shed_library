@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import ElectricalPage from "./electricalPage";
 import { mockStore } from "../../../../infrastructure/mock/mockStore";
 import { MemoryRouter as Router } from "react-router-dom";
-import { appStore } from "../../../../infrastructure/services/store/store";
+import { appStore } from "../../../../services/store/store";
 
 describe("Given Electrical Page component", () => {
     test("Then it should display radio", () => {

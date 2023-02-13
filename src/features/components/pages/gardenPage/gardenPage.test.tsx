@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { MemoryRouter as Router } from "react-router-dom";
 import { mockStore } from "../../../../infrastructure/mock/mockStore";
-import { appStore } from "../../../../infrastructure/services/store/store";
+import { appStore } from "../../../../services/store/store";
 
 import Garden from "./gardenPage";
 

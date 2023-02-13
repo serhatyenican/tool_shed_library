@@ -5,8 +5,8 @@ import { Provider } from "react-redux";
 
 import { mockStore } from "../../../../infrastructure/mock/mockStore";
 import MyFavProductsList from "./myFavProductsList";
-import { appStore } from "../../../../infrastructure/services/store/store";
 import { mockStore2 } from "../../../../infrastructure/mock/mockStore2";
+import { appStore } from "../../../../services/store/store";
 
 describe("Given myFavProductsList component", () => {
     test("it should render product name when called", () => {

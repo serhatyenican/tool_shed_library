@@ -1,6 +1,6 @@
-import { useProducts } from "../../../../infrastructure/services/product/hooks/useProducts";
-import { ProductI } from "../../../../models/product";
-import { ProductItem } from "../../productItem/productItem";
+import { ProductI } from "../../../../../models/product";
+import { useProducts } from "../../../../../services/product/hooks/useProducts";
+import { ProductItem } from "../../../productItem/productItem";
 import styles from "./gardenPage.module.css";
 
 function GeneralPurpose() {

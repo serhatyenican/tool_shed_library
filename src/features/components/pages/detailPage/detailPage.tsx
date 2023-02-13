@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
-import { useProducts } from "../../../../infrastructure/services/product/hooks/useProducts";
 import { useEffect } from "react";
 import styles from "./detailPage.module.css";
+import { useProducts } from "../../../../services/product/hooks/useProducts";
 
 function DetailPage() {
     const { productId } = useParams();

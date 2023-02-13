@@ -5,7 +5,7 @@ import { MemoryRouter as Router } from "react-router-dom";
 import { Provider } from "react-redux";
 import { mockStore } from "../../../../infrastructure/mock/mockStore";
 import GeneralPurposePage from "./generalPurposePage";
-import { appStore } from "../../../../infrastructure/services/store/store";
+import { appStore } from "../../../../services/store/store";
 
 describe("Given General Purpose component", () => {
     test("Then it should display projects", () => {
