@@ -1,8 +1,10 @@
-import { useUsers } from "../../../../infrastructure/services/user/hooks/useUser";
+
 import { ProductI } from "../../../../models/product";
 import { UserI } from "../../../../models/user";
+import { useUsers } from "../../../../services/user/hooks/useUser";
 import { RemoveFavs } from "../../favsButtons/removeFavsButton/removeFavsButton";
 import { RequestProduct } from "../../RequestButtons/requestButtons/requestProduct";
+
 import styles from "./myFavProductsList.module.css";
 
 function MyFavProductsList() {
