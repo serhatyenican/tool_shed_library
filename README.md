@@ -1,6 +1,6 @@
-rafael_garcia_front-final-project-202210-mad## Biblioteca de Herramientas para proyectos DIY proyecto final Rafael Garcia
+## Biblioteca de Herramientas para proyectos DIY Rafael Garcia
 
-Nombre pendiente de asignar. Nombre temporalmente: The Tool Shed
+Nombre The Tool Shed Library
 modelo de datos de usuario
 USER:
 
@@ -57,7 +57,7 @@ owner: Types.ObjectId | null
 }
 ]
 La aplicación contará con dos controllers, dos repositories y dos routers. Uno para los productos, y otro para los usuarios.  
-La gestión de las imágenes de los productos se realizará utilizando la librería Firebase https://firebase.google.com/. Habrá que aprender a utilizarla.
+La gestión de las imágenes de los productos se realizará utilizando la librería Firebase https://firebase.google.com/. 
 
 Backend Endpoints:
 
