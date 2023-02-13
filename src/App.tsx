@@ -1,8 +1,10 @@
 import "./App.css";
-import { Provider } from "react-redux";
-import { appStore } from "./infrastructure/services/store/store";
+
+
 import { AppRoutes } from "./infrastructure/routes/appRoutes";
 import { Layout } from "./infrastructure/layout/layout";
+import { appStore } from "./services/store/store";
+import { Provider } from "react-redux";
 
 function App() {
     return (
