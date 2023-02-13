@@ -1,0 +1,16 @@
+.btn {
+    width: 12em;
+    height: 3em;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #1188f7;
+    outline: none;
+    transition: 1s ease-in-out;
+    border-radius: 6px;
+    font-size: medium;
+    margin: 1em;
+}
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: #4f95da;
+}
