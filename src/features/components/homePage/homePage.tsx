@@ -17,7 +17,7 @@ function HomePage() {
                 </div>
 
                 <div>
-                    <Link to={"/generalPurpose"}>
+                    <Link to={"/general"}>
                         <img
                             className={styles.category__products}
                             src="./assets/thumbsmenu/general2.png"
