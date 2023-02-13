@@ -1,4 +1,5 @@
-import { useUsers } from "../../../../infrastructure/services/user/hooks/useUser";
+import { useUsers } from "../../../../services/user/hooks/useUser";
+
 
 function Logout() {
     const { handleLogout } = useUsers();
