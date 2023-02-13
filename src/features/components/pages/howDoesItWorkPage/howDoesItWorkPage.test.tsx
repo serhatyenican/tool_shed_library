@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 
 import HowDoesItWork from "./howDoesItWorkPage";
-import React from "react";
+
 
 describe("Given howdoesitwork component", () => {
     beforeEach(() => {

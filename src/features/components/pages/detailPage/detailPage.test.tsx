@@ -4,7 +4,7 @@ import { MemoryRouter as Router } from "react-router-dom";
 import { Provider } from "react-redux";
 import DetailPage from "./detailPage";
 import { mockStore } from "../../../../infrastructure/mock/mockStore";
-import { appStore } from "../../../../infrastructure/services/store/store";
+import { appStore } from "../../../../services/store/store";
 
 describe("Given Detail Page component", () => {
     test("it should render detail product when called", () => {
