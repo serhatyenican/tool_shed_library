@@ -1,0 +1,14 @@
+.title {
+    font-size: x-large;
+    font-weight: 400;
+}
+p {
+    font-size: x-large;
+}
+
+.howdoesitwork {
+    margin: 0 auto;
+    width: 95vw;
+
+    text-align: justify;
+}
