@@ -30,7 +30,7 @@ function HomePage() {
                     <Link to={"/wood"}>
                         <img
                             className={styles.category__products}
-                            src="https://firebasestorage.googleapis.com/v0/b/the-tool-shed-library.appspot.com/o/homepage%2Fwood.webp?alt=media&token=220520ed-f08f-4d8e-b40f-2e0485473542"
+                            src="https://firebasestorage.googleapis.com/v0/b/the-tool-shed-library.appspot.com/o/homepage%2Fwood.webp?alt=media&token=b76de871-e0ef-40a0-8e27-7883606fd70e"
                             alt="Woodworking Category"
                         />
                     </Link>
