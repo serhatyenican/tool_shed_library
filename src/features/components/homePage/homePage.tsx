@@ -10,7 +10,7 @@ function HomePage() {
                     <Link to={"/garden"}>
                         <img
                             className={styles.category__products}
-                            src="./assets/thumbsmenu/garden2.png"
+                            src="gs://the-tool-shed-library.appspot.com/homepage/garden.webp"
                             alt="Garden Category"
                         />
                     </Link>
@@ -20,7 +20,7 @@ function HomePage() {
                     <Link to={"/general"}>
                         <img
                             className={styles.category__products}
-                            src="./assets/thumbsmenu/general2.png"
+                            src="gs://the-tool-shed-library.appspot.com/homepage/general.webp"
                             alt="General Purpose Category"
                         />
                     </Link>
@@ -30,7 +30,7 @@ function HomePage() {
                     <Link to={"/wood"}>
                         <img
                             className={styles.category__products}
-                            src="./assets/thumbsmenu/wood3.png"
+                            src="gs://the-tool-shed-library.appspot.com/homepage/wood.webp"
                             alt="Woodworking Category"
                         />
                     </Link>
@@ -40,7 +40,7 @@ function HomePage() {
                     <Link to={"/electrical"}>
                         <img
                             className={styles.category__products}
-                            src="./assets/thumbsmenu/electrical2.png"
+                            src="gs://the-tool-shed-library.appspot.com/homepage/electrical.webp"
                             alt="Electrical & Paint Category"
                         />
                     </Link>
