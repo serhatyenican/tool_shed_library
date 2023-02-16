@@ -10,7 +10,7 @@ function HomePage() {
                     <Link to={"/garden"}>
                         <img
                             className={styles.category__products}
-                            src="gs://the-tool-shed-library.appspot.com/homepage/garden.webp"
+                            src="https://firebasestorage.googleapis.com/v0/b/the-tool-shed-library.appspot.com/o/homepage%2Fgarden.webp?alt=media&token=3fefbc21-56db-4b64-95f4-174da30a9916"
                             alt="Garden Category"
                         />
                     </Link>
@@ -20,7 +20,7 @@ function HomePage() {
                     <Link to={"/general"}>
                         <img
                             className={styles.category__products}
-                            src="gs://the-tool-shed-library.appspot.com/homepage/general.webp"
+                            src="https://firebasestorage.googleapis.com/v0/b/the-tool-shed-library.appspot.com/o/homepage%2Fgeneral.webp?alt=media&token=f1a408f3-ffe3-47c1-93e2-3816e07f6f2d"
                             alt="General Purpose Category"
                         />
                     </Link>
@@ -30,7 +30,7 @@ function HomePage() {
                     <Link to={"/wood"}>
                         <img
                             className={styles.category__products}
-                            src="gs://the-tool-shed-library.appspot.com/homepage/wood.webp"
+                            src="https://firebasestorage.googleapis.com/v0/b/the-tool-shed-library.appspot.com/o/homepage%2Fwood.webp?alt=media&token=220520ed-f08f-4d8e-b40f-2e0485473542"
                             alt="Woodworking Category"
                         />
                     </Link>
@@ -40,7 +40,7 @@ function HomePage() {
                     <Link to={"/electrical"}>
                         <img
                             className={styles.category__products}
-                            src="gs://the-tool-shed-library.appspot.com/homepage/electrical.webp"
+                            src="https://firebasestorage.googleapis.com/v0/b/the-tool-shed-library.appspot.com/o/homepage%2Felectrical.webp?alt=media&token=b4626e17-6890-4026-9a4c-c54c66380093"
                             alt="Electrical & Paint Category"
                         />
                     </Link>
