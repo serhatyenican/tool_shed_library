@@ -2,7 +2,7 @@
     background-color: #00b4d8;
     color: rgb(247, 242, 237);
     width: 100vw;
-    min-width: 390px;
+    min-width: 450px;
     padding: 1em;
     display: flex;
     flex-direction: column;
@@ -13,5 +13,4 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
 }

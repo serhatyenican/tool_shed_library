@@ -6,10 +6,11 @@
     padding-inline: 1rem;
     background-color: #00b4d8;
     color: rgb(247, 242, 237);
+    min-width: 450px;
 }
 .footer {
     width: 100vw;
     position: sticky;
     padding: 1em;
-    min-width: 390px;
+    min-width: 450px;
 }
