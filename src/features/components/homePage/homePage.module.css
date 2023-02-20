@@ -1,11 +1,12 @@
 .category__products {
-    padding: 1.5rem;
-
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+    padding: 1rem;
+    margin: 1em;
+    min-width: 250px;
+    max-width: 500px;
 }
 
 .title {
-    font-weight: bold;
+    display: flex;
 }
 .parent {
     display: flex;
@@ -16,5 +17,3 @@
     align-items: center;
     max-width: 90vw;
 }
-
-

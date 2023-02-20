@@ -10,10 +10,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 3em;
+    margin: 2em;
 }
 img {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
-    margin-inline: 3rem;
-    margin-block: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 1em;
+    
 }

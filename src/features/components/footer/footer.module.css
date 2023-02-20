@@ -1,5 +1,6 @@
 .footer__container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-inline: 1rem;
@@ -7,8 +8,8 @@
     color: rgb(247, 242, 237);
 }
 .footer {
-    
     width: 100vw;
     position: sticky;
     padding: 1em;
+    min-width: 390px;
 }
