@@ -7,12 +7,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 4em;
+    margin: 2em;
 }
 
 .title {
     font-size: medium;
 }
-img {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
-}
+

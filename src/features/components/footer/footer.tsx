@@ -4,8 +4,8 @@ import styles from "./footer.module.css";
 
 export function Footer() {
     return (
-        <footer className={styles.footer__container}>
-            <div>
+        <footer>
+            <div className={styles.footer__container}>
                 <Link to="/home">
                     <img
                         className={styles.home}
@@ -14,7 +14,7 @@ export function Footer() {
                     ></img>
                 </Link>
 
-                <address>The Tool Shed Library</address>
+                <address>By Rafael Garcia Lopez</address>
             </div>
         </footer>
     );
