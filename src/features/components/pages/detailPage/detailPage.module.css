@@ -1,14 +1,14 @@
 .item {
     min-width: 30vw;
-    
+
     height: 40vh;
     pointer-events: none;
     padding: 1rem;
 }
 
 .item img {
-    height: 20vh;
-    
+    width: 50vw;
+
     pointer-events: none;
     margin: 2em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
@@ -31,7 +31,7 @@ li {
     cursor: grab;
 }
 .slider-container {
-    margin: 0 10;
+    margin: 0 0;
     overflow-x: hidden;
 }
 .description {
@@ -39,4 +39,5 @@ li {
     justify-content: center;
     align-items: center;
     padding: 2em;
+    font-size: medium;
 }
