@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+
 import styles from "./footer.module.css";
 
 export function Footer() {
     return (
-        <footer className={styles.footer}>
+        <footer className={styles.footer__container}>
             <div>
                 <Link to="/home">
                     <img
@@ -12,6 +13,7 @@ export function Footer() {
                         alt="Home"
                     ></img>
                 </Link>
+
                 <address>The Tool Shed Library</address>
             </div>
         </footer>

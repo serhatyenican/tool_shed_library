@@ -1,5 +1,5 @@
+import { DrawerMenu } from "../drawer/drawer";
 
-import { Menu } from "../../../infrastructure/menu/menu";
 import styles from "./header.module.css";
 
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
                 <h2>Welcome to the Tool Shed Library</h2>
                 <div className={styles.header__container}>
                     <div className={styles.menu}>
-                        <Menu></Menu>
+                        <DrawerMenu></DrawerMenu>
                     </div>
                 </div>
             </header>
