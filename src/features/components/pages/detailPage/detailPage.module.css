@@ -1,13 +1,14 @@
 .item {
     min-width: 30vw;
-    max-width: 60vw;
+    
+    height: 40vh;
     pointer-events: none;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .item img {
-    height: 80%;
-    max-width: 90%;
+    height: 20vh;
+    
     pointer-events: none;
     margin: 2em;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
@@ -18,17 +19,24 @@ li {
 }
 .li__container {
     font-size: x-large;
+    height: 80vh;
 }
 .title {
-    font-weight: bold;
-    font-size: x-large;
+    font-size: large;
 }
 
 .slider {
     display: flex;
+    justify-content: center;
     cursor: grab;
 }
 .slider-container {
     margin: 0 10;
     overflow-x: hidden;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
 }

@@ -38,7 +38,7 @@ function DetailPage() {
                     ))}
                 </motion.div>
             </motion.div>
-            <p>{products[0].description}</p>
+            <p className={styles.description}>{products[0].description}</p>
         </section>
     );
 }
