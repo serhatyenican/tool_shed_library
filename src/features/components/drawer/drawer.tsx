@@ -5,7 +5,6 @@ import styles from "./drawer.module.css";
 import {
     Drawer,
     DrawerBody,
-    DrawerFooter,
     DrawerOverlay,
     DrawerContent,
     DrawerCloseButton,
@@ -60,11 +59,9 @@ export function DrawerMenu() {
                         ))}
                     </DrawerBody>
 
-                    <DrawerFooter></DrawerFooter>
+                    
                 </DrawerContent>
             </Drawer>
         </>
     );
 }
-
-
