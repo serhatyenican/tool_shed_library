@@ -14,3 +14,7 @@ ul {
     flex-direction: row;
     justify-content: space-evenly;
 }
+.welcome__text {
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}

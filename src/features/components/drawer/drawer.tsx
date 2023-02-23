@@ -42,7 +42,7 @@ export function DrawerMenu() {
     return (
         <>
             <img
-                className={styles.menu_icon}
+                className={styles.menu_icon} alt="menu button"
                 src="../assets/bars-menu-solid_2.svg"
                 onClick={onOpen}
             ></img>

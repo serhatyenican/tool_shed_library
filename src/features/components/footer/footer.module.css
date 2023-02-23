@@ -7,10 +7,15 @@
     background-color: #00b4d8;
     color: rgb(247, 242, 237);
     min-width: 450px;
+    padding-block: 1em;
 }
 .footer {
     width: 100vw;
     position: sticky;
-    padding: 1em;
+    padding: 2em;
     min-width: 450px;
+}
+
+.address {
+    padding: 0.5em;
 }

@@ -14,7 +14,7 @@ export function Footer() {
                     ></img>
                 </Link>
 
-                <address>By Rafael Garcia Lopez</address>
+                <address className={styles.address} >By Rafael Garcia Lopez</address>
             </div>
         </footer>
     );
