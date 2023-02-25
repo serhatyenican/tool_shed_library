@@ -20,7 +20,7 @@ export function Menu() {
         );
     } else {
         menuOptions.push(
-            { id: "9", path: "ProductsFav", label: "My Favourites List" },
+            { id: "9", path: "ProductsFav", label: "My Favorites List" },
             { id: "10", path: "ToolsInUse", label: "Tools I am using" },
             { id: "11", path: "Logout", label: "Logout" },
             { id: "12", path: "delete", label: "Delete Account" }
