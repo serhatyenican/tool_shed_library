@@ -30,6 +30,6 @@ describe("Given the request product component", () => {
         );
 
         fireEvent.click(screen.getByText(/Request/i));
-        userEvent.click(await screen.getByText(/Request/i));
+        userEvent.click(await screen.findByText(/Sorry/i));
     });
 });
